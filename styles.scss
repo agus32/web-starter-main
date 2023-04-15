@@ -7,33 +7,26 @@ body {
     display: flex;
     height: 100vh;
     flex-direction: column;
+    &-left {
+        width: 100%;
+        background-color: white;
+        padding: 1rem;
+        justify-content: space-between;
+    }
+    &-right {
+        width: 100%;
+        background-color: antiquewhite;
+        padding: 1rem;
+    }
 }
+
 .menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-
-    
-    
+    justify-content: space-evenly; 
 }
 
-.container-left {
-    width: 100%;
-    background-color: white;
-    padding: 1rem;
-    justify-content: space-between;
-    
-    
-}
 
-.container-right {
-    
-    width: 100%;
-    background-color: antiquewhite;
-    padding: 1rem;
-
-
-}
 .menu-item {
  
     width: 20%;
